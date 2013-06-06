@@ -2,7 +2,7 @@
 
 int main(int argc, char **argv) {
 	if (argc == 1) {
-		printf("error: file not given\n");
+		printf("usage: tabs2spaces [FILE]\n");
 	} else {
 		FILE *fp = fopen(argv[1], "r");
 		if (fp == NULL) {
