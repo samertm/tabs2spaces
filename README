@@ -1,1 +1,1 @@
-"tabs2spaces [FILENAME]" outputs the text of the file to stdout with all the tabs replaced with four spaces.
+"tabs2spaces [FILENAME]" replace every tab in FILENAME with four spaces.
