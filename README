@@ -1,1 +1,4 @@
-"tabs2spaces [FILENAME]" replace every tab in FILENAME with four spaces.
+usage: tabs2spaces [OPTIONS] [FILE]
+options:
+  -t [NUMBER], --tabs [NUMBER]        The number of spaces you want
+                                      tabs to expand to.
